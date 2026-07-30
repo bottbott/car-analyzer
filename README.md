@@ -11,13 +11,21 @@ pnpm install
 pnpm dev
 ```
 
-Open the URL Vite prints (usually http://localhost:5173).
+Open the URL Vite prints (usually http://localhost:5173/car-analyzer/).
 
 ```bash
 pnpm test      # cost-engine unit tests
 pnpm build    # production build
 pnpm preview  # serve the build
 ```
+
+## GitHub Pages
+
+Pushes to `main` build and deploy automatically via GitHub Actions.
+
+Live site: https://bottbott.github.io/car-analyzer/
+
+In the repo settings, set **Pages → Source** to **GitHub Actions** (one-time).
 
 ## Stack
 
